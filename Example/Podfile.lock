@@ -1,12 +1,12 @@
 PODS:
   - JetToTheFuture (0.1.0)
-  - Nimble (3.2.0)
-  - Quick (0.10.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
 
 DEPENDENCIES:
   - JetToTheFuture (from `../`)
-  - Nimble (~> 3.0)
-  - Quick (~> 0.8)
+  - Nimble
+  - Quick
 
 EXTERNAL SOURCES:
   JetToTheFuture:
@@ -14,9 +14,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JetToTheFuture: d2e3f884dd862feb36fb8116ce32a7a278d49e1c
-  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
-  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: a9ad05415e6d502ac5bbe4c9ef3ec0b42c0b2b8c
+PODFILE CHECKSUM: 90d3b1aa5c5b1d68535692f5336025f6baa8c8d1
 
 COCOAPODS: 1.1.1

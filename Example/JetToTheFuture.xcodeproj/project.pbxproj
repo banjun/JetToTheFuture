@@ -14,7 +14,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		BDDBEA541CDAC9DF7E740C1C /* Pods_JetToTheFuture_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A18586BD94F0C4829FD4C10 /* Pods_JetToTheFuture_Example.framework */; };
+		73E5B54DA48214F5BB13F351 /* Pods_JetToTheFuture_JetToTheFuture_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA7CDADA99D8079E4E92815 /* Pods_JetToTheFuture_JetToTheFuture_Example.framework */; };
+		75E9F250764E092B48A123C0 /* Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E578E6BD53B86F16FA85223B /* Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture.framework */; };
+		EA19BE4B1E01049D00CA3D9F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19BE4A1E01049D00CA3D9F /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +29,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EA19BE461E01049D00CA3D9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		06E31441B8166886D5067CB4 /* Pods-JetToTheFuture-JetToTheFuture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture-JetToTheFuture_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture-JetToTheFuture_Example/Pods-JetToTheFuture-JetToTheFuture_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0A047A9BD9570A444355C1D9 /* Pods-JetToTheFuture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture_Example/Pods-JetToTheFuture_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F74C9E9DE8ED9ADC15FA9F1 /* Pods-JetToTheFuture-Example CLI for JetToTheFuture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture-Example CLI for JetToTheFuture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture-Example CLI for JetToTheFuture/Pods-JetToTheFuture-Example CLI for JetToTheFuture.debug.xcconfig"; sourceTree = "<group>"; };
 		504F74687FD7BD81DB1DE470 /* Pods_JetToTheFuture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetToTheFuture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5620F395A4A2435A90C2D104 /* Pods-JetToTheFuture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture_Tests/Pods-JetToTheFuture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JetToTheFuture_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetToTheFuture_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,10 +58,16 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72F63A077F64891FE80B3570 /* Pods-JetToTheFuture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture_Example/Pods-JetToTheFuture_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA7CDADA99D8079E4E92815 /* Pods_JetToTheFuture_JetToTheFuture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetToTheFuture_JetToTheFuture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A18586BD94F0C4829FD4C10 /* Pods_JetToTheFuture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetToTheFuture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1610FE1F6CD7838936F47A /* JetToTheFuture.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JetToTheFuture.podspec; path = ../JetToTheFuture.podspec; sourceTree = "<group>"; };
+		C8E09A756864B6CB6C97AF23 /* Pods-JetToTheFuture-Example CLI for JetToTheFuture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture-Example CLI for JetToTheFuture.release.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture-Example CLI for JetToTheFuture/Pods-JetToTheFuture-Example CLI for JetToTheFuture.release.xcconfig"; sourceTree = "<group>"; };
+		CAEEC2FA8CA39B710ECF12C8 /* Pods-JetToTheFuture-JetToTheFuture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture-JetToTheFuture_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture-JetToTheFuture_Example/Pods-JetToTheFuture-JetToTheFuture_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D91ABFF889781B9A2768E9B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E578E6BD53B86F16FA85223B /* Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FA88DCEC7179A4B448357C /* Pods-JetToTheFuture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetToTheFuture_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JetToTheFuture_Tests/Pods-JetToTheFuture_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA19BE481E01049D00CA3D9F /* Example CLI for JetToTheFuture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Example CLI for JetToTheFuture"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA19BE4A1E01049D00CA3D9F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFB56743EA6F723DCB04A6DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDDBEA541CDAC9DF7E740C1C /* Pods_JetToTheFuture_Example.framework in Frameworks */,
+				73E5B54DA48214F5BB13F351 /* Pods_JetToTheFuture_JetToTheFuture_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C16A315E663D641D3388F9 /* Pods_JetToTheFuture_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA19BE451E01049D00CA3D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E9F250764E092B48A123C0 /* Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +106,10 @@
 				0A047A9BD9570A444355C1D9 /* Pods-JetToTheFuture_Example.release.xcconfig */,
 				5620F395A4A2435A90C2D104 /* Pods-JetToTheFuture_Tests.debug.xcconfig */,
 				E7FA88DCEC7179A4B448357C /* Pods-JetToTheFuture_Tests.release.xcconfig */,
+				4F74C9E9DE8ED9ADC15FA9F1 /* Pods-JetToTheFuture-Example CLI for JetToTheFuture.debug.xcconfig */,
+				C8E09A756864B6CB6C97AF23 /* Pods-JetToTheFuture-Example CLI for JetToTheFuture.release.xcconfig */,
+				CAEEC2FA8CA39B710ECF12C8 /* Pods-JetToTheFuture-JetToTheFuture_Example.debug.xcconfig */,
+				06E31441B8166886D5067CB4 /* Pods-JetToTheFuture-JetToTheFuture_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -86,6 +120,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for JetToTheFuture */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				EA19BE491E01049D00CA3D9F /* Example CLI for JetToTheFuture */,
 				607FACD11AFB9204008FA782 /* Products */,
 				5E11120D93740DE5C93CE0BC /* Pods */,
 				9B750081F991B35B485FF94A /* Frameworks */,
@@ -97,6 +132,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* JetToTheFuture_Example.app */,
 				607FACE51AFB9204008FA782 /* JetToTheFuture_Tests.xctest */,
+				EA19BE481E01049D00CA3D9F /* Example CLI for JetToTheFuture */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,8 +191,18 @@
 			children = (
 				8A18586BD94F0C4829FD4C10 /* Pods_JetToTheFuture_Example.framework */,
 				504F74687FD7BD81DB1DE470 /* Pods_JetToTheFuture_Tests.framework */,
+				E578E6BD53B86F16FA85223B /* Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture.framework */,
+				7EA7CDADA99D8079E4E92815 /* Pods_JetToTheFuture_JetToTheFuture_Example.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA19BE491E01049D00CA3D9F /* Example CLI for JetToTheFuture */ = {
+			isa = PBXGroup;
+			children = (
+				EA19BE4A1E01049D00CA3D9F /* main.swift */,
+			);
+			path = "Example CLI for JetToTheFuture";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,13 +249,33 @@
 			productReference = 607FACE51AFB9204008FA782 /* JetToTheFuture_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EA19BE471E01049D00CA3D9F /* Example CLI for JetToTheFuture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA19BE4C1E01049D00CA3D9F /* Build configuration list for PBXNativeTarget "Example CLI for JetToTheFuture" */;
+			buildPhases = (
+				C354510A570CC7310D1E83B0 /* [CP] Check Pods Manifest.lock */,
+				EA19BE441E01049D00CA3D9F /* Sources */,
+				EA19BE451E01049D00CA3D9F /* Frameworks */,
+				EA19BE461E01049D00CA3D9F /* CopyFiles */,
+				0378B347D088FA6830C1410A /* [CP] Copy Pods Resources */,
+				EA19BE4F1E01067200CA3D9F /* dynamic link frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example CLI for JetToTheFuture";
+			productName = "Example CLI for JetToTheFuture";
+			productReference = EA19BE481E01049D00CA3D9F /* Example CLI for JetToTheFuture */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -221,6 +287,11 @@
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					EA19BE471E01049D00CA3D9F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = FPZK4WRGW7;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -239,6 +310,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* JetToTheFuture_Example */,
 				607FACE41AFB9204008FA782 /* JetToTheFuture_Tests */,
+				EA19BE471E01049D00CA3D9F /* Example CLI for JetToTheFuture */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +336,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0378B347D088FA6830C1410A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JetToTheFuture-Example CLI for JetToTheFuture/Pods-JetToTheFuture-Example CLI for JetToTheFuture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		46AC01D4C78ADA50A6D59E49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,7 +378,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JetToTheFuture_Example/Pods-JetToTheFuture_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JetToTheFuture-JetToTheFuture_Example/Pods-JetToTheFuture-JetToTheFuture_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C354510A570CC7310D1E83B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		CBC4DDF6B7321B39A6EB8322 /* [CP] Copy Pods Resources */ = {
@@ -321,7 +423,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JetToTheFuture_Example/Pods-JetToTheFuture_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JetToTheFuture-JetToTheFuture_Example/Pods-JetToTheFuture-JetToTheFuture_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE406EE79673ACA13666D332 /* [CP] Embed Pods Frameworks */ = {
@@ -354,6 +456,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		EA19BE4F1E01067200CA3D9F /* dynamic link frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "dynamic link frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# magic by https://gist.github.com/banjun/166045c994d07b9e67df9357ff6418f3\n\nFRAMEWORK_ARG=$(for f in $(echo \"${FRAMEWORK_SEARCH_PATHS}\"); do echo -n \"-F$f \"; done)\n\nmkdir -p \"${CONFIGURATION_BUILD_DIR}/Frameworks\"\nfor f in ${CONFIGURATION_BUILD_DIR}/*/*.framework; do\n    cp -r \"$f\" \"${CONFIGURATION_BUILD_DIR}/Frameworks/\"\ndone\n\nxcrun swift-stdlib-tool --copy --platform macosx --scan-folder ${CONFIGURATION_BUILD_DIR} --destination ${CONFIGURATION_BUILD_DIR}/Frameworks/";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -371,6 +488,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA19BE441E01049D00CA3D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA19BE4B1E01049D00CA3D9F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +618,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72F63A077F64891FE80B3570 /* Pods-JetToTheFuture_Example.debug.xcconfig */;
+			baseConfigurationReference = CAEEC2FA8CA39B710ECF12C8 /* Pods-JetToTheFuture-JetToTheFuture_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JetToTheFuture/Info.plist;
@@ -507,7 +632,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A047A9BD9570A444355C1D9 /* Pods-JetToTheFuture_Example.release.xcconfig */;
+			baseConfigurationReference = 06E31441B8166886D5067CB4 /* Pods-JetToTheFuture-JetToTheFuture_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JetToTheFuture/Info.plist;
@@ -557,6 +682,39 @@
 			};
 			name = Release;
 		};
+		EA19BE4D1E01049D00CA3D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F74C9E9DE8ED9ADC15FA9F1 /* Pods-JetToTheFuture-Example CLI for JetToTheFuture.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA19BE4E1E01049D00CA3D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E09A756864B6CB6C97AF23 /* Pods-JetToTheFuture-Example CLI for JetToTheFuture.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,6 +741,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA19BE4C1E01049D00CA3D9F /* Build configuration list for PBXNativeTarget "Example CLI for JetToTheFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA19BE4D1E01049D00CA3D9F /* Debug */,
+				EA19BE4E1E01049D00CA3D9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

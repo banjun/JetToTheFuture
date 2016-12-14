@@ -1,7 +1,11 @@
 PODS:
-  - JetToTheFuture (0.1.0)
+  - BrightFutures (5.1.0):
+    - Result (~> 3.0)
+  - JetToTheFuture (0.1.0):
+    - BrightFutures (~> 5.0)
   - Nimble (5.1.1)
   - Quick (1.0.0)
+  - Result (3.1.0)
 
 DEPENDENCIES:
   - JetToTheFuture (from `../`)
@@ -13,9 +17,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JetToTheFuture: d2e3f884dd862feb36fb8116ce32a7a278d49e1c
+  BrightFutures: 62aafb1a63520eda91c9286bf4be33e58e043938
+  JetToTheFuture: 693bc0205e6c3ec27c2de0130d944c34f899bf5f
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
 
 PODFILE CHECKSUM: 90d3b1aa5c5b1d68535692f5336025f6baa8c8d1
 

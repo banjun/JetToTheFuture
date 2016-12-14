@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
 [![Platform](https://img.shields.io/cocoapods/p/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
 
-JetToTheFuture provides safe `forced()` to get to the [BrightFutures](https://github.com/Thomvis/BrightFutures).Future values.
+JetToTheFuture provides safe `forced()` to get to the [BrightFutures](https://github.com/Thomvis/BrightFutures).Future values on the main thread.
 
 Its usecase is mainly for command-line scripts and testcases, not for apps because `forced()` is potentially unsafe on main thread.
 
@@ -13,6 +13,14 @@ Its usecase is mainly for command-line scripts and testcases, not for apps becau
 ## Usage
 
 see [testcases](Example/Tests/Tests.swift).
+
+for command-line swift script:
+
+```swift
+let r = forcedFuture {methodThatReturnFuture()}
+print("\(r)")
+// no need to run RunLoop to wait at the end of the script
+```
 
 ## Installation
 

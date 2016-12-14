@@ -1,0 +1,28 @@
+PODS:
+  - BrightFutures (5.1.0):
+    - Result (~> 3.0)
+  - JetToTheFuture (0.1.0):
+    - BrightFutures (~> 5.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - Result (3.1.0)
+
+DEPENDENCIES:
+  - JetToTheFuture (from `../`)
+  - Nimble
+  - Quick
+
+EXTERNAL SOURCES:
+  JetToTheFuture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BrightFutures: 62aafb1a63520eda91c9286bf4be33e58e043938
+  JetToTheFuture: 27e37709010ccb74d7e57795251d706638e4d935
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+
+PODFILE CHECKSUM: 15276672cdcf914d0d8cd695c924592da4def351
+
+COCOAPODS: 1.1.1

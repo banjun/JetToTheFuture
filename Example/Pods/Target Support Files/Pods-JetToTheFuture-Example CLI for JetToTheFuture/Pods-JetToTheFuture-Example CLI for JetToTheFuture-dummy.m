@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture : NSObject
+@end
+@implementation PodsDummy_Pods_JetToTheFuture_Example_CLI_for_JetToTheFuture
+@end

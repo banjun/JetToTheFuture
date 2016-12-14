@@ -1,0 +1,6 @@
+framework module Pods_JetToTheFuture_JetToTheFuture_Example {
+  umbrella header "Pods-JetToTheFuture-JetToTheFuture_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

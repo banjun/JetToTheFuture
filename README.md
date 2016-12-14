@@ -1,6 +1,6 @@
 # JetToTheFuture
 
-[![CI Status](http://img.shields.io/travis/BAN Jun/JetToTheFuture.svg?style=flat)](https://travis-ci.org/BAN Jun/JetToTheFuture)
+[![CI Status](http://img.shields.io/travis/banjun/JetToTheFuture.svg?style=flat)](https://travis-ci.org/banjun/JetToTheFuture)
 [![Version](https://img.shields.io/cocoapods/v/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
 [![License](https://img.shields.io/cocoapods/l/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
 [![Platform](https://img.shields.io/cocoapods/p/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
@@ -22,7 +22,7 @@ pod "JetToTheFuture"
 
 ## Author
 
-BAN Jun, banjun@gmail.com
+banjun, banjun@gmail.com
 
 ## License
 

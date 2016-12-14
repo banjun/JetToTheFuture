@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/banjun/JetToTheFuture'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'BAN Jun' => 'banjun@gmail.com' }
+  s.author           = { 'banjun' => 'banjun@gmail.com' }
   s.source           = { :git => 'https://github.com/banjun/JetToTheFuture.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/banjun'
   s.ios.deployment_target = '9.0'

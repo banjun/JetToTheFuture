@@ -1,0 +1,22 @@
+PODS:
+  - JetToTheFuture (0.1.0)
+  - Nimble (3.2.0)
+  - Quick (0.10.0)
+
+DEPENDENCIES:
+  - JetToTheFuture (from `../`)
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  JetToTheFuture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JetToTheFuture: d2e3f884dd862feb36fb8116ce32a7a278d49e1c
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+
+PODFILE CHECKSUM: a9ad05415e6d502ac5bbe4c9ef3ec0b42c0b2b8c
+
+COCOAPODS: 1.1.1

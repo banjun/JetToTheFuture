@@ -5,24 +5,22 @@
 [![License](https://img.shields.io/cocoapods/l/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
 [![Platform](https://img.shields.io/cocoapods/p/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
 
-## Example
+JetToTheFuture provides safe `forced()` to get to the [BrightFutures](https://github.com/Thomvis/BrightFutures).Future values.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Its usecase is mainly for command-line scripts and testcases, not for apps because `forced()` is potentially unsafe on main thread.
 
-## Requirements
+
+## Usage
+
+see [testcases](Example/Tests/Tests.swift).
 
 ## Installation
 
-JetToTheFuture is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+JetToTheFuture is available through [CocoaPods](http://cocoapods.org).
 
 ```ruby
 pod "JetToTheFuture"
 ```
-
-## Author
-
-banjun, banjun@gmail.com
 
 ## License
 

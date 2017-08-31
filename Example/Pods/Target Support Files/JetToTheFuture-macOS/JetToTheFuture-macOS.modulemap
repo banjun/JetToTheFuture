@@ -1,0 +1,6 @@
+framework module JetToTheFuture {
+  umbrella header "JetToTheFuture-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

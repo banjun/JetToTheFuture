@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
   s.source_files = 'JetToTheFuture/Classes/**/*'
-  s.dependency 'BrightFutures', '~> 5.0'
+  s.dependency 'BrightFutures', '>= 6.0.0-beta.1'
 end

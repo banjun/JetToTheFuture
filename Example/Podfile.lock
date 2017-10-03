@@ -1,11 +1,11 @@
 PODS:
-  - BrightFutures (6.0.0-beta.1):
-    - Result (~> 3.2)
-  - JetToTheFuture (0.3.0):
-    - BrightFutures (>= 6.0.0-beta.1)
-  - Nimble (7.0.1)
-  - Quick (1.1.0)
-  - Result (3.2.3)
+  - BrightFutures (6.0.0):
+    - Result (~> 3.2.4)
+  - JetToTheFuture (0.4.0):
+    - BrightFutures (~> 6.0)
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+  - Result (3.2.4)
 
 DEPENDENCIES:
   - JetToTheFuture (from `../`)
@@ -17,12 +17,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BrightFutures: 3cc2388beb3c86e9c7c47f2d9073577ed049d528
-  JetToTheFuture: 04a7038a23ab64046a13d5fed760e9299c4dffba
-  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
-  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
-  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  BrightFutures: 9e7604f511aed9f0d6a49b04ac9b3fca6b117758
+  JetToTheFuture: def85e1937e83ca489ed64bd9bb7a014a7bb2bfc
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
 
-PODFILE CHECKSUM: 15276672cdcf914d0d8cd695c924592da4def351
+PODFILE CHECKSUM: 6c8a96fc35f0295b3eebc1c2693ef4f4277794a4
 
 COCOAPODS: 1.3.1

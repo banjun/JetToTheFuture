@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "JetToTheFuture",
     dependencies: [
-        .package(url: "https://github.com/Thomvis/BrightFutures", from: "6.0.0-beta.1")],
+        .package(url: "https://github.com/Thomvis/BrightFutures", from: "6.0.0")],
     targets: [
         .target(name: "JetToTheFuture",
             dependencies: ["BrightFutures"],

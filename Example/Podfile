@@ -4,6 +4,7 @@ abstract_target 'JetToTheFuture' do
   pod 'JetToTheFuture', :path => '../'
 
   target 'JetToTheFuture_Example' do
+    platform :ios, '9.0'
     target 'JetToTheFuture_Tests' do
       inherit! :search_paths
 
@@ -13,5 +14,6 @@ abstract_target 'JetToTheFuture' do
   end
 
   target 'Example CLI for JetToTheFuture' do
+    platform :osx, '10.12'
   end
 end

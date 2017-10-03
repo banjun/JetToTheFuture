@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JetToTheFuture'
-  s.version          = '0.4.0-beta.1'
+  s.version          = '0.4.0'
   s.summary          = 'safely `forced()` to get to the BrightFutures.Future values'
   s.description      = <<-DESC
                        brings forced future block to safely `forced()` just on the main thread.
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
   s.source_files = 'JetToTheFuture/Classes/**/*'
-  s.dependency 'BrightFutures', '>= 6.0.0-beta.1'
+  s.dependency 'BrightFutures', '~> 6.0'
 end

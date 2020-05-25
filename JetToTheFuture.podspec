@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/banjun'
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
+  s.swift_versions = ['5.0']
   s.source_files = 'JetToTheFuture/Classes/**/*'
-  s.dependency 'BrightFutures', '~> 6.0'
+  s.dependency 'BrightFutures', '~> 8.0'
 end

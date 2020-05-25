@@ -6,17 +6,26 @@
         "repositoryURL": "https://github.com/Thomvis/BrightFutures",
         "state": {
           "branch": null,
-          "revision": "8659746df02d8f62a112eda288f4f2f3bab368f1",
-          "version": "6.0.0"
+          "revision": "9279defa6bdc21501ce740266e5a14d0119ddc63",
+          "version": "8.0.1"
         }
       },
       {
-        "package": "Result",
-        "repositoryURL": "https://github.com/antitypical/Result.git",
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble",
         "state": {
           "branch": null,
-          "revision": "c8446185238659a2b27c0261f64ff1254291d07d",
-          "version": "3.2.3"
+          "revision": "72f5a90d573f7f7d70aa6b8ad84b3e1e02eabb4d",
+          "version": "8.0.9"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick",
+        "state": {
+          "branch": null,
+          "revision": "33682c2f6230c60614861dfc61df267e11a1602f",
+          "version": "2.2.0"
         }
       }
     ]

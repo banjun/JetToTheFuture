@@ -1,6 +1,5 @@
 import Foundation
 import BrightFutures
-import Result
 
 private let forcedFutureQueue = DispatchQueue(label: "forcedFutureQueue")
 /// synchronously turn Future into Result on the main queue

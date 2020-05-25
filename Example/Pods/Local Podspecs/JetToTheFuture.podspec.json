@@ -20,10 +20,14 @@
     "ios": "9.0",
     "osx": "10.11"
   },
+  "swift_versions": [
+    "5.0"
+  ],
   "source_files": "JetToTheFuture/Classes/**/*",
   "dependencies": {
     "BrightFutures": [
-      "~> 6.0"
+      "~> 8.0"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

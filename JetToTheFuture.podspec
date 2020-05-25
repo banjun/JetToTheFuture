@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JetToTheFuture'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'safely `forced()` to get to the BrightFutures.Future values'
   s.description      = <<-DESC
                        brings forced future block to safely `forced()` just on the main thread.

@@ -1,5 +1,6 @@
 # JetToTheFuture
 
+![CI](https://github.com/banjun/JetToTheFuture/workflows/CI/badge.svg)
 [![CI Status](http://img.shields.io/travis/banjun/JetToTheFuture.svg?style=flat)](https://travis-ci.org/banjun/JetToTheFuture)
 [![Version](https://img.shields.io/cocoapods/v/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)
 [![License](https://img.shields.io/cocoapods/l/JetToTheFuture.svg?style=flat)](http://cocoapods.org/pods/JetToTheFuture)

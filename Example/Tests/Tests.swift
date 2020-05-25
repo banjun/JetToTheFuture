@@ -3,8 +3,8 @@
 import Quick
 import Nimble
 import BrightFutures
-import Result
 import JetToTheFuture
+import Foundation
 
 private func request(url: String) -> Future<HTTPURLResponse, DummyError> {
     let p = Promise<HTTPURLResponse, DummyError>()

@@ -47,6 +47,10 @@ public final class Future<T, E: Error>: Async<Result<T, E>> {
     public init(value: T, delay: DispatchTimeInterval) {
         super.init(result: .success(value), delay: delay)
     }
+
+    public init(error: E, delay: DispatchTimeInterval) {
+        super.init(result: .failure(error), delay: delay)
+    }
     
     public required init<A: AsyncType>(other: A) where A.Value == Value {
         super.init(other: other)
@@ -105,7 +109,7 @@ public func materialize<E>(_ scope: ((E?) -> Void) -> Void) -> Future<Void, E> {
 /// Short-hand for `lhs.recover(rhs())`
 /// `rhs` is executed according to the default threading model (see README.md)
 public func ?? <T, E>(_ lhs: Future<T, E>, rhs: @autoclosure @escaping  () -> T) -> Future<T, Never> {
-    return lhs.recover(context: DefaultThreadingModel(), task: { _ in
+    return lhs.recover(context: defaultContext(), task: { _ in
         return rhs()
     })
 }
@@ -113,11 +117,10 @@ public func ?? <T, E>(_ lhs: Future<T, E>, rhs: @autoclosure @escaping  () -> T)
 /// Short-hand for `lhs.recoverWith(rhs())`
 /// `rhs` is executed according to the default threading model (see README.md)
 public func ?? <T, E, E1>(_ lhs: Future<T, E>, rhs: @autoclosure @escaping () -> Future<T, E1>) -> Future<T, E1> {
-    return lhs.recoverWith(context: DefaultThreadingModel(), task: { _ in
+    return lhs.recoverWith(context: defaultContext(), task: { _ in
         return rhs()
     })
 }
 
-/// Can be used as the value type of a `Future` or `Result` to indicate it can never be a success.
-/// This is guaranteed by the type system, because `NoValue` has no possible values and thus cannot be created.
+@available(*, deprecated, renamed: "Never")
 public enum NoValue { }

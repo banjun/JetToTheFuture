@@ -1,9 +1,9 @@
 PODS:
-  - BrightFutures (8.0.0)
+  - BrightFutures (8.1.0)
   - JetToTheFuture (0.5.0):
     - BrightFutures (~> 8.0)
-  - Nimble (8.0.9)
-  - Quick (2.2.0)
+  - Nimble (9.2.1)
+  - Quick (5.0.1)
 
 DEPENDENCIES:
   - JetToTheFuture (from `../`)
@@ -21,11 +21,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BrightFutures: f8427b46feabaf73c5e71ace7d86d65dfbb47696
+  BrightFutures: 6a974d08b121658dc0e6b93f5dec5353f9c24a44
   JetToTheFuture: 030be6987394b1615b0515d05f48dafe3625a45e
-  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
-  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
 
-PODFILE CHECKSUM: 6c8a96fc35f0295b3eebc1c2693ef4f4277794a4
+PODFILE CHECKSUM: 8cdf0228b7dce428d7bc3fa335da65525151caf5
 
 COCOAPODS: 1.11.3

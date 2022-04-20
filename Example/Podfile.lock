@@ -1,6 +1,6 @@
 PODS:
   - BrightFutures (8.0.0)
-  - JetToTheFuture (0.4.0):
+  - JetToTheFuture (0.5.0):
     - BrightFutures (~> 8.0)
   - Nimble (8.0.9)
   - Quick (2.2.0)
@@ -22,10 +22,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BrightFutures: f8427b46feabaf73c5e71ace7d86d65dfbb47696
-  JetToTheFuture: 7c3908a9581c6237811b2c805e39a27faddbb3c2
+  JetToTheFuture: 030be6987394b1615b0515d05f48dafe3625a45e
   Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
   Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
 
 PODFILE CHECKSUM: 6c8a96fc35f0295b3eebc1c2693ef4f4277794a4
 
-COCOAPODS: 1.9.2
+COCOAPODS: 1.11.3
